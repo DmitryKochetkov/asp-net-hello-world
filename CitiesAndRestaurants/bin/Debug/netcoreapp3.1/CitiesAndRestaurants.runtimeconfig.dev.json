@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/dimedrol/.dotnet/store/|arch|/|tfm|",
+      "/home/dimedrol/.nuget/packages"
+    ]
+  }
+}
