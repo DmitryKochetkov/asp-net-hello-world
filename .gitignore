@@ -1,1 +1,3 @@
 /CitiesAndRestaurants/connectionString.txt
+*.dll
+*.pdb
