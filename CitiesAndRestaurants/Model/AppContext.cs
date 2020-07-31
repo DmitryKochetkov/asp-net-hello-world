@@ -1,6 +1,7 @@
 using System.Data.Common;
 using System.IO;
 using System.Text;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CitiesAndRestaurants.Model
@@ -21,7 +22,6 @@ namespace CitiesAndRestaurants.Model
                         .UseNpgsql(line)
                         .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             }
-             
         }
 
         public DbSet<City> CityItems { get; set; }
