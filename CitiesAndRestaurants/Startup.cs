@@ -31,6 +31,24 @@ namespace CitiesAndRestaurants
             services.AddAuthorization();
             services.AddControllers();
             services.AddRazorPages();
+
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen(c => 
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Cities And Restaraunts",
+                    Description = "Info about cities and restaraunts",
+                    TermsOfService = new Uri("https://wikipedia.org/C_Sharp_(programming_language)"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Data Frame",
+                        Email = "some@data-frame.ru",
+                        Url = new Uri("https://data-frame.ru")
+                    }
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +60,21 @@ namespace CitiesAndRestaurants
             }
 
             //app.UseHttpsRedirection();
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                //Чтобы было возможно задать http://localhost:<port>/
+                //c.RoutePrefix = string.Empty;
+            });
+
+            app.UseHttpsRedirection();
 
             app.UseRouting();
 
