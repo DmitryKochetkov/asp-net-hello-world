@@ -10,6 +10,7 @@ namespace CitiesAndRestaurants.Controllers
         private AppContext db = new AppContext();
         
         // GET /restaurant
+        [HttpGet]
         public IEnumerable<Restaurant> Index()
         {
             return db.RestaurantItems;

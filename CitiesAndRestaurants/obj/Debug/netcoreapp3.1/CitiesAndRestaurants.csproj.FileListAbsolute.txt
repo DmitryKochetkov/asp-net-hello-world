@@ -72,3 +72,11 @@
 /home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/obj/Debug/netcoreapp3.1/CitiesAndRestaurants.genruntimeconfig.cache
 /home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/bin/Debug/netcoreapp3.1/Npgsql.dll
 /home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/obj/Debug/netcoreapp3.1/CitiesAndRestaurants.MvcApplicationPartsAssemblyInfo.cs
+/home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/bin/Debug/netcoreapp3.1/swagger/v1/swagger.json
+/home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/bin/Debug/netcoreapp3.1/Humanizer.dll
+/home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/dimedrol/RiderProjects/CitiesAndRestaurants/CitiesAndRestaurants/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
